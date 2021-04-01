@@ -386,7 +386,7 @@ GEM
     rake (12.3.1)
     rb-fsevent (0.10.3)
     rdoc (6.0.4)
-    redcarpet (3.2.3)
+    redcarpet (3.5.1)
     redis (4.0.1)
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
@@ -557,7 +557,7 @@ DEPENDENCIES
   rails!
   rake (>= 11.1)
   rb-inotify!
-  redcarpet (~> 3.2.3)
+  redcarpet (~> 3.5.1)
   redis (~> 4.0)
   redis-namespace
   resque
