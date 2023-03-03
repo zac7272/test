@@ -1,0 +1,12 @@
+  <RenderScript>
+                  <Source>
+                  import sailpoint.object.Identity;
+                  import sailpoint.object.IdentityRequest;
+                  import sailpoint.object.Filter;
+                  if(null == value) return;
+                  IdentityRequest ir =  context.getUniqueObject(IdentityRequest.class, Filter.eq("items.id", value));                   
+                  if(null == ir)return;
+                  Identity idObj = context.getObjectById(Identity.class, ir.getTargetId());
+                  return  (idObj == null) ? "" : idObj.getFirstname();
+                </Source>
+                </RenderScript>
