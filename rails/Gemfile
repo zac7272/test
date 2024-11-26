@@ -37,7 +37,7 @@ gem "rb-inotify", github: "matthewd/rb-inotify", branch: "close-handling", requi
 
 group :doc do
   gem "sdoc", "~> 1.0"
-  gem "redcarpet", "~> 3.2.3", platforms: :ruby
+  gem "redcarpet", "~> 3.5.1", platforms: :ruby
   gem "w3c_validators"
   gem "kindlerb", "~> 1.2.0"
 end
